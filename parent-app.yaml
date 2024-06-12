@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: argocd
     name: in-cluster
-  project: cli-apps
+  project: default
   source:
     repoURL: https://github.com/mocdaniel/gitops-examples-progress
     targetRevision: HEAD
