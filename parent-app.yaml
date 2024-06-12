@@ -9,7 +9,7 @@ spec:
     name: in-cluster
   project:
   source:
-    repoURL: https://github.com/mocdaniel/gitops-examples
+    repoURL: https://github.com/mocdaniel/gitops-examples-progress
     targetRevision: HEAD
     path: apps
   syncPolicy:
