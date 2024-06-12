@@ -5,11 +5,11 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace:
-    name:
+    namespace: argocd
+    name: parent-app
   project:
   source:
-    repoURL:
+    repoURL: https://github.com/mocdaniel/gitops-examples
     targetRevision: HEAD
     path: apps
   syncPolicy:
